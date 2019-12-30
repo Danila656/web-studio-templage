@@ -1,0 +1,55 @@
+.header {
+    height: 900px;
+    width: 100%;
+    border: #880100 solid 2px;
+    background: url("../image/background.jpg");
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.menu a {
+    margin: 40px 20px;
+    text-decoration: unset;
+    color: white;
+}
+
+.it-studio {
+    font-family: Montserrat;
+    width: 13%;
+    text-align: center;
+    color: white;
+}
+
+.solution {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blue-button {
+    background: #4985ff;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 20px 50px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
