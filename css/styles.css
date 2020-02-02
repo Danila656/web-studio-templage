@@ -1,6 +1,9 @@
+body {
+    margin: 0;
+}
+
 .unit-1 {
     width: 100%;
-    border: #880100 solid 2px;
     background: url("../image/background.jpg");
 }
 
@@ -231,12 +234,16 @@
     width: 58%;
 }
 
+.nothing{
+    width:510px;
+}
 .bloc-with-pictures {
     margin-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    width:55%;
 }
 
 .picture-file {
@@ -249,7 +256,7 @@
     position: absolute;
     width: 100%;
     height: 490px;
-    left: 0px;
+    left: 0;
     z-index: -1;
     background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
 }
@@ -541,7 +548,7 @@
     width: 300px;
     border-radius: 200px;
     margin-top: 165px;
-    margin-bottom: 165px;
+    margin-bottom: 145px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -616,4 +623,74 @@
     border: 1px solid #E0E0E0;
     border: 1px solid #E0E0E0;
     width: 57%;
+}
+
+.blue-border {
+    border: #4985ff solid 2px;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-right: 20px;
+}
+
+.point {
+    border: #4985FF solid 1px;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    padding: left
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    margin: 2px 15px 2px 2px
+}
+
+.blue-line {
+    margin: 0;
+    border: 1px solid #4985FF;
+}
+
+.symbols {
+    margin: 3px 8px 5px 8px;
+    color: #4985FF;
+    display: flex;
+    flex-direction: row;
+}
+
+.symbols p {
+    margin: 0;
+}
+
+.file-union {
+    display: flex;
+    flex-direction: row;
+}
+
+.amount {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    margin: 0;
+}
+
+.gray-text {
+    margin-top: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.file{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
 }
